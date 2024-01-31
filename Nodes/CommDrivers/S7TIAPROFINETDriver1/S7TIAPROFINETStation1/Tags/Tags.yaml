@@ -1,0 +1,602 @@
+Name: Tags
+Type: FolderType
+Children:
+- Name: OP40_2
+  Type: TagStructure
+  DataType: Structure
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "Id": 22
+     }
+    }
+   }
+  Children:
+  - Name: 40_MOLLA_TAPPO_CHECK_DB
+    Type: TagStructure
+    DataType: Structure
+    Value: 
+     {
+      "Type": 22,
+      "Body": {
+       "TypeId": {
+        "Id": 22
+       }
+      }
+     }
+    Children:
+    - Name: ton_pmc
+      Type: TagStructure
+      DataType: Structure
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "Id": 22
+         }
+        }
+       }
+      Children:
+      - Name: ST
+        Type: S7TiaProfinetTag
+        DataType: Duration
+        Value: "0:00:00:0.0000000"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_pmc.ST"
+        - Name: Encoding
+          Type: BaseDataVariableType
+          DataType: ns=23;Encoding
+          Value: 0
+      - Name: PT
+        Type: S7TiaProfinetTag
+        DataType: Duration
+        Value: "0:00:00:0.0000000"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_pmc.PT"
+        - Name: Encoding
+          Type: BaseDataVariableType
+          DataType: ns=23;Encoding
+          Value: 0
+      - Name: ET
+        Type: S7TiaProfinetTag
+        DataType: Duration
+        Value: "0:00:00:0.0000000"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_pmc.ET"
+        - Name: Encoding
+          Type: BaseDataVariableType
+          DataType: ns=23;Encoding
+          Value: 0
+      - Name: RU
+        Type: S7TiaProfinetTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_pmc.RU"
+      - Name: IN
+        Type: S7TiaProfinetTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_pmc.IN"
+      - Name: Q
+        Type: S7TiaProfinetTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_pmc.Q"
+    - Name: ton_tr_consenso
+      Type: TagStructure
+      DataType: Structure
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "Id": 22
+         }
+        }
+       }
+      Children:
+      - Name: ST
+        Type: S7TiaProfinetTag
+        DataType: Duration
+        Value: "0:00:00:0.0000000"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_tr_consenso.ST"
+        - Name: Encoding
+          Type: BaseDataVariableType
+          DataType: ns=23;Encoding
+          Value: 0
+      - Name: PT
+        Type: S7TiaProfinetTag
+        DataType: Duration
+        Value: "0:00:00:0.0000000"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_tr_consenso.PT"
+        - Name: Encoding
+          Type: BaseDataVariableType
+          DataType: ns=23;Encoding
+          Value: 0
+      - Name: ET
+        Type: S7TiaProfinetTag
+        DataType: Duration
+        Value: "0:00:00:0.0000000"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_tr_consenso.ET"
+        - Name: Encoding
+          Type: BaseDataVariableType
+          DataType: ns=23;Encoding
+          Value: 0
+      - Name: RU
+        Type: S7TiaProfinetTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_tr_consenso.RU"
+      - Name: IN
+        Type: S7TiaProfinetTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_tr_consenso.IN"
+      - Name: Q
+        Type: S7TiaProfinetTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_tr_consenso.Q"
+    - Name: ton_asse_indietro
+      Type: TagStructure
+      DataType: Structure
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "Id": 22
+         }
+        }
+       }
+      Children:
+      - Name: ST
+        Type: S7TiaProfinetTag
+        DataType: Duration
+        Value: "0:00:00:0.0000000"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_asse_indietro.ST"
+        - Name: Encoding
+          Type: BaseDataVariableType
+          DataType: ns=23;Encoding
+          Value: 0
+      - Name: PT
+        Type: S7TiaProfinetTag
+        DataType: Duration
+        Value: "0:00:00:0.0000000"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_asse_indietro.PT"
+        - Name: Encoding
+          Type: BaseDataVariableType
+          DataType: ns=23;Encoding
+          Value: 0
+      - Name: ET
+        Type: S7TiaProfinetTag
+        DataType: Duration
+        Value: "0:00:00:0.0000000"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_asse_indietro.ET"
+        - Name: Encoding
+          Type: BaseDataVariableType
+          DataType: ns=23;Encoding
+          Value: 0
+      - Name: RU
+        Type: S7TiaProfinetTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_asse_indietro.RU"
+      - Name: IN
+        Type: S7TiaProfinetTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_asse_indietro.IN"
+      - Name: Q
+        Type: S7TiaProfinetTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_asse_indietro.Q"
+    - Name: ton_asse_avanti
+      Type: TagStructure
+      DataType: Structure
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "Id": 22
+         }
+        }
+       }
+      Children:
+      - Name: ST
+        Type: S7TiaProfinetTag
+        DataType: Duration
+        Value: "0:00:00:0.0000000"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_asse_avanti.ST"
+        - Name: Encoding
+          Type: BaseDataVariableType
+          DataType: ns=23;Encoding
+          Value: 0
+      - Name: PT
+        Type: S7TiaProfinetTag
+        DataType: Duration
+        Value: "0:00:00:0.0000000"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_asse_avanti.PT"
+        - Name: Encoding
+          Type: BaseDataVariableType
+          DataType: ns=23;Encoding
+          Value: 0
+      - Name: ET
+        Type: S7TiaProfinetTag
+        DataType: Duration
+        Value: "0:00:00:0.0000000"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_asse_avanti.ET"
+        - Name: Encoding
+          Type: BaseDataVariableType
+          DataType: ns=23;Encoding
+          Value: 0
+      - Name: RU
+        Type: S7TiaProfinetTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_asse_avanti.RU"
+      - Name: IN
+        Type: S7TiaProfinetTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_asse_avanti.IN"
+      - Name: Q
+        Type: S7TiaProfinetTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_asse_avanti.Q"
+    - Name: ton_chek_grasso
+      Type: TagStructure
+      DataType: Structure
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "Id": 22
+         }
+        }
+       }
+      Children:
+      - Name: ST
+        Type: S7TiaProfinetTag
+        DataType: Duration
+        Value: "0:00:00:0.0000000"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_chek_grasso.ST"
+        - Name: Encoding
+          Type: BaseDataVariableType
+          DataType: ns=23;Encoding
+          Value: 0
+      - Name: PT
+        Type: S7TiaProfinetTag
+        DataType: Duration
+        Value: "0:00:00:0.0000000"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_chek_grasso.PT"
+        - Name: Encoding
+          Type: BaseDataVariableType
+          DataType: ns=23;Encoding
+          Value: 0
+      - Name: ET
+        Type: S7TiaProfinetTag
+        DataType: Duration
+        Value: "0:00:00:0.0000000"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_chek_grasso.ET"
+        - Name: Encoding
+          Type: BaseDataVariableType
+          DataType: ns=23;Encoding
+          Value: 0
+      - Name: RU
+        Type: S7TiaProfinetTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_chek_grasso.RU"
+      - Name: IN
+        Type: S7TiaProfinetTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_chek_grasso.IN"
+      - Name: Q
+        Type: S7TiaProfinetTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_chek_grasso.Q"
+    - Name: ton_grease_man
+      Type: TagStructure
+      DataType: Structure
+      Value: 
+       {
+        "Type": 22,
+        "Body": {
+         "TypeId": {
+          "Id": 22
+         }
+        }
+       }
+      Children:
+      - Name: ST
+        Type: S7TiaProfinetTag
+        DataType: Duration
+        Value: "0:00:00:0.0000000"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_grease_man.ST"
+        - Name: Encoding
+          Type: BaseDataVariableType
+          DataType: ns=23;Encoding
+          Value: 0
+      - Name: PT
+        Type: S7TiaProfinetTag
+        DataType: Duration
+        Value: "0:00:00:0.0000000"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_grease_man.PT"
+        - Name: Encoding
+          Type: BaseDataVariableType
+          DataType: ns=23;Encoding
+          Value: 0
+      - Name: ET
+        Type: S7TiaProfinetTag
+        DataType: Duration
+        Value: "0:00:00:0.0000000"
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_grease_man.ET"
+        - Name: Encoding
+          Type: BaseDataVariableType
+          DataType: ns=23;Encoding
+          Value: 0
+      - Name: RU
+        Type: S7TiaProfinetTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_grease_man.RU"
+      - Name: IN
+        Type: S7TiaProfinetTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_grease_man.IN"
+      - Name: Q
+        Type: S7TiaProfinetTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.ton_grease_man.Q"
+    - Name: qg_job_sup
+      Type: S7TiaProfinetTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.qg_job_sup"
+    - Name: qg_sup
+      Type: S7TiaProfinetTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.qg_sup"
+    - Name: qg_inf
+      Type: S7TiaProfinetTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.qg_inf"
+    - Name: index_misura
+      Type: S7TiaProfinetTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.index_misura"
+    - Name: error_misura
+      Type: S7TiaProfinetTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.error_misura"
+    - Name: trg_misura_scarto
+      Type: S7TiaProfinetTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.trg_misura_scarto"
+    - Name: sr_greas_man
+      Type: S7TiaProfinetTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.sr_greas_man"
+    - Name: fs_trg_misura_scarto
+      Type: S7TiaProfinetTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.fs_trg_misura_scarto"
+    - Name: fs_trg_misura
+      Type: S7TiaProfinetTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.fs_trg_misura"
+    - Name: qg_move
+      Type: S7TiaProfinetTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.qg_move"
+    - Name: qg_job_inf
+      Type: S7TiaProfinetTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "OP40_2.Blocks.40_MOLLA_TAPPO_CHECK_DB.qg_job_inf"
